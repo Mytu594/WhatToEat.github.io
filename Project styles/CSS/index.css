@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, skyblue, pink 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#dv {
+    width: 800px;
+    height: 650px;
+    margin: 157px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul li {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 35%;
+    border: 3px dashed palevioletred;
+    padding: 2.4374px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px 5px;
+    font-size: 17px;
+    font-family: '楷体';
+    font-weight: 900;
+    color: yellow;
+}
+
+li.change {
+    background: radial-gradient(circle, purple, skyblue 70%);
+    font-size: 15px;
+    color: #B6DCD9;
+    font-weight: bolder;
+}
+
+#btu,
+#btu1,
+#btu2 {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 50px 0 50px;
+    color: brown;
+    background-color: pink;
+    border: none;
+    font-family: '楷体';
+    font-weight: 900;
+    font-size: 20px;
+}
+.inputObj{
+    width: 100px;
+    border: none;
+    background: transparent;
+}
+
+.ch {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border-radius: 35%;
+    background-image: url('../Jpeg/64380cd7912397ddd91f09afdddb79b0d1a2879c.jpeg');
+    background-size: 100% 100%;
+    bottom: 5px;
+}
+
+.luc {
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+    color: #E3DAE8;
+    text-shadow: 2px 3px 1px #B6DCD9;
+    font-family: '楷体';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.name {
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    font-size: 30px;
+    font-family: '楷体';
+    font-weight: 900;
+    color: #E3DAE8;
+}
+
+.G_Z {
+    position: relative;
+    top: 508px;
+    color: red;
+    font-size: 20px;
+    font-family: '楷体';
+    font-weight: 900;
+}
